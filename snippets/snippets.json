@@ -1,0 +1,60 @@
+{
+    "Image snippet": {
+      "prefix": "!image-center",
+      "body": [
+        "{:refdef: style=\"text-align: center;\"}",
+        "![${image}]({{site.url}}/{{site.baseurl}}img/post-assets/${image}.jpg)",
+        "{: refdef}"
+      ],
+      "description": "image centered"
+    },
+    "Code Snippet": {
+      "prefix": "!code",
+      "body": [
+        "{% highlight ${1:language} %}",
+        "${2:code}",
+        "{% endhighlight %}"
+      ],
+      "description": "code block"
+    },
+    "Code With Numbers Snippet": {
+      "prefix": "!code-numerated-lines",
+      "body": [
+        "{% highlight ${1:language} linenos %}",
+        "${2:code}",
+        "{% endhighlight %}"
+      ],
+      "description": "code block with numerated lines"
+    },
+    "Header Snippet": {
+      "prefix": "!header-coding",
+      "body": [
+        "---",
+        "layout: post-sidebar",
+        "date: ${1:2020-04-09}",
+        "title: \"${2:post-title}\"",
+        "categories: coding",
+        "author_name : ${3:Name Surname}",
+        "author_url : /author/${4:name}",
+        "author_avatar: ${4:name}",
+        "show_avatar : true",
+        "read_time : 15",
+        "feature_image: ${5:image-name}",
+        "show_related_posts: true",
+        "square_related: recommend-coding",
+        "---"
+      ],
+      "description": "code block"
+    },
+    "Article Link Snippet": {
+      "prefix": "!link-article",
+      "body": "[${1:link title}]({% post_url ${2:post-title} %})",
+      "description": "link to article"
+    },
+    "Link Youtube video": {
+      "prefix": "!link-youtube",
+      "body": "{% include youtubePlayer.html id=${1:youtubeId} %}",
+      "description": "link to youtube video"
+    }
+
+}

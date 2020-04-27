@@ -1,0 +1,26 @@
+{
+    "name": "2sherpas",
+    "displayName": "2sherpas",
+    "description": "Jekyll code snippets",
+    "version": "0.0.1",
+    "publisher": "2sherpas",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+      "color": "#C80000",
+      "theme": "dark"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
