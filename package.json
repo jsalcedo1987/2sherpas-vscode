@@ -3,13 +3,14 @@
     "displayName": "2sherpas",
     "description": "Jekyll code snippets",
     "version": "0.0.1",
-    "publisher": "2sherpas",
+    "publisher": "2Sherpas",
+    "repository": "https://github.com/jsalcedo1987/2sherpas-vscode",
     "engines": {
         "vscode": "^1.44.0"
     },
     "icon": "images/icon.png",
     "galleryBanner": {
-      "color": "#C80000",
+      "color": "#000000",
       "theme": "dark"
     },
     "categories": [
