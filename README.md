@@ -21,6 +21,8 @@ This is a collection of code snippets that we use to write and format our Jekyll
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Use `Command + Space bar` and then type the code snippets.
+
 The available code snippets are:
 
 - !code - Generates a code highlight block.
